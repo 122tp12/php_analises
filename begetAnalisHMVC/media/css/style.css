@@ -1,0 +1,85 @@
+header{
+    display: flex;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    color:black;
+    align-items:center;
+}
+
+header img{
+    width:100px;
+}
+
+.menubuttons{
+    color:black;
+    font-size: 24px;
+    margin: 24px;
+}
+
+.news{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card{
+    width:200px;
+    border:1px solid black;
+    padding: 5px;
+    background-color: darkblue;
+    color: white;
+}
+
+.card img{
+    width: 150px;
+}
+.my-group{
+    margin: 50px;
+}
+.dateT{
+    background-color: #f1ece7;
+    color: #2b2b2b;
+}
+.nameT{
+    font-size: larger;
+    color: #000000;
+
+}
+.dwt{
+    margin: 10px;
+}
+.formR{
+    margin: 200px;
+}
+.bbuton{
+    position: relative;
+    top:-20px;
+    left: -100px;
+}
+.correct{
+    text-decoration: underline;
+    text-decoration-color: lightgreen;
+}
+.wrong{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+.search{
+    border: thick double #d5d5d5;
+    position: absolute;
+    right: 10px;
+    top: 110px;
+    padding: 5px;
+}
+.fr{
+    float: right;
+}
+.search-d{
+    margin: 2px;
+}
+.qrcode{
+    position: absolute;
+    right: 200px;
+    top: 400px;
+}

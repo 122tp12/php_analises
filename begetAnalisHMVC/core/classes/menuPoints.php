@@ -1,0 +1,10 @@
+<?php
+$start="/start";
+$cheak="/cheak";
+$menu="/menu";
+$doc="/doc";
+$menu1=[
+    [['text'=>'/start','callback_data'=>'/start']],
+    [['text'=>'/cheak','callback_data'=>'/cheak']],
+    [['text'=>'/doc','callback_data'=>'/doc']],
+];
