@@ -11,8 +11,8 @@ class sqlClass
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
             PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC
         );
-        $connection = "mysql:host=localhost;dbname=lazokifc_analis";
-        $this->pdo = new PDO($connection, "lazokifc_analis" , "Ivan254478", $opt);
+        $connection = "mysql:host=localhost;dbname=";
+        $this->pdo = new PDO($connection, "" , "", $opt);
 
     }
     public function query($string)
